@@ -33,6 +33,8 @@ function veer (){
     // b=10;  
     // console.log(a)  //reassingment is allowed in let
 
+    
+
 
 }
 
