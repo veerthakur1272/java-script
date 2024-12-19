@@ -58,11 +58,72 @@ function arr(){
     //     console.log(num*2);
     // })
 
-    let arr1=[3,5,2,4,9,7,8,6]
-    for (let i of arr1){
-        console.log(i)
-    }
-
-
+    // let arr1=[3,5,2,4,9,7,8,6]
+    // for (let i of arr1){
+    //     console.log(i)
+    // }
 }
 arr()
+
+
+
+
+
+
+// // function num(){
+
+// // }
+
+// // num()
+
+// let num=()=>{
+    
+
+//     let arr=[2,6,64,8,34,9]
+  
+//     // let ans=arr.map(function(num){
+//     //   return num*2
+//     // })
+  
+//     // let ans2=arr.map((num)=>{
+//     //   return num*2
+//     // }) 
+  
+//     // let ans=arr.sort((a,b)=>a-b)
+//     // ans.reverse();
+//     // console.log(ans);
+    
+  
+//     // let ans1=arr.map((num)=> num*2) 
+  
+//     // let ans2=arr.filter((num)=>{
+//     //   return num>5;
+//     // })
+  
+//     // console.log(ans2);
+    
+  
+//   }
+//   num()
+  
+  
+  
+//   let go=(a,b)=>{
+      
+//       return a+b
+  
+//   }
+  
+//   console.log( go(7,8));
+
+
+let go=()=>{
+    console.log("hello new ")
+    let newarr=[2,5,7,3,9,1]
+    let newarray= newarr.map(function(okk){
+        return okk+2;
+    })
+    let newarray2=newarr.map((okk)=>okk+2)
+    console.log(newarray2);
+}
+go()
