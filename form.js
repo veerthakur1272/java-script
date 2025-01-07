@@ -19,6 +19,7 @@ let sub =()=>{
     if(name===""){
         errname.innerHTML="enter your name ";
         errname.style.color="red";
+        document.querySelector("#name").placeholder="enter your name"
         return false;
     }
     if(mno===""){
@@ -42,7 +43,7 @@ let sub =()=>{
         return false;
     }
 
-    else if (isNaN(num)){
+    else if (isNaN(mobile)){
         errno.innerHTML="please enter a valid number"
         errno.style.color="red";
         return false;
@@ -60,6 +61,8 @@ let sub =()=>{
 
     else if (pass!=confirm){
         errconfirm.innerHTML="password and confirm password should same";
+        document.querySelector("#pass").value="";
+        document.querySelector("#pass").focus()
         return false;
     }
 
